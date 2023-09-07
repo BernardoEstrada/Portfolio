@@ -1,4 +1,4 @@
-import { Themes } from "../utils/Theme"
+import { DEFAULT_DARK, DEFAULT_LIGHT, Themes } from "../utils/Theme"
 import { SunIcon, MoonIcon, ChevronDownIcon } from "@heroicons/react/24/solid"
 
 export default function NavBar (props: { theme: Themes, setTheme: (theme: Themes) => void }) {
@@ -8,7 +8,7 @@ export default function NavBar (props: { theme: Themes, setTheme: (theme: Themes
       <div className="join m-5 mr-0">
         <div className='btn join-item'>
           <label className="swap swap-rotate">
-            <input type="checkbox" checked={theme===Themes.DARK} onChange={e => setTheme(e.target.checked?Themes.DARK:Themes.LIGHT)}/>
+            <input type="checkbox" checked={theme===DEFAULT_DARK} onChange={e => setTheme(e.target.checked?DEFAULT_DARK:DEFAULT_LIGHT)}/>
             <SunIcon className="swap-on fill-current w-8 h-8"/>
             <MoonIcon className="swap-off fill-current w-7 h-7"/>
           </label>

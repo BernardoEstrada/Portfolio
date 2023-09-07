@@ -2,6 +2,7 @@ import hslToHex from "hsl-to-hex";
 import { Helmet } from "react-helmet";
 
 export enum Themes {
+  DEVICE_SETTINGS = "device-settings",
   LIGHT = "light",
   DARK = "dark",
   CUPCAKE = "cupcake",
@@ -32,6 +33,9 @@ export enum Themes {
   COFFEE = "coffee",
   WINTER = "winter",
 }
+
+export const DEFAULT_DARK = Themes.NIGHT;
+export const DEFAULT_LIGHT = Themes.WINTER;
 
 const availableColors = [ "p", "pf", "pc", "s", "sf", "sc", "a", "af", "ac", "n", "nf", "nc", "b1", "b2", "b3", "bc", "in", "inc", "su", "suc", "wa", "wac", "er", "erc" ] as const
 
