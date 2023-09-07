@@ -6,6 +6,8 @@ import NavBar from './components/NavBar'
 import Landing from './components/Landing'
 import { Helmet } from 'react-helmet'
 import usePrefersColorScheme from 'use-prefers-color-scheme'
+import faviconDark from '@assets/favicon-dark.svg' assert { type: "svg" }
+import faviconLight from '@assets/favicon-light.svg' assert { type: "svg" }
 
 console.log('%c Hello There!', 'font-size: 36px; font-weight: bold');
 function App() {
@@ -24,13 +26,19 @@ function App() {
     if (theme === DEFAULT_LIGHT && preferredScheme === 'dark') setTheme(DEFAULT_DARK)
   }, [preferredScheme])
 
+  const getIcon = (schema: "dark" | "light" | "no-preference") => {
+    if (schema === 'dark') return faviconDark
+    if (schema === 'light') return faviconLight
+    return theme === DEFAULT_DARK ? faviconDark : faviconLight
+  }
+
   return (
     <>
       <Themefy theme={theme} />
       <Helmet >
         <title>{resume.basics.name}</title>
         <meta name="description" content={resume.basics.headline} />
-        <link rel="icon" type="image/svg+xml" href={`src/assets/favicon-${preferredScheme !== 'no-preference' ? preferredScheme : 'light'}.svg`} />
+        <link rel="icon" type="image/svg+xml" href={getIcon(preferredScheme)} />
       </Helmet>
       <NavBar theme={theme} setTheme={setTheme} />
 
