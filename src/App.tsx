@@ -30,6 +30,7 @@ function App() {
       <Helmet >
         <title>{resume.basics.name}</title>
         <meta name="description" content={resume.basics.headline} />
+        <link rel="icon" type="image/svg+xml" href={`src/assets/favicon-${preferredScheme !== 'no-preference' ? preferredScheme : 'light'}.svg`} />
       </Helmet>
       <NavBar theme={theme} setTheme={setTheme} />
 
