@@ -23,3 +23,14 @@
 * {
   transition: background-color 0.5s ease-in-out;
 }
+
+.rounded-animated {
+  @apply rounded-badge rounded-ee-none rounded-ss-none;
+  transition-property: border-radius;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.rounded-animated:hover {
+  @apply rounded-badge rounded-se-none rounded-es-none;
+}

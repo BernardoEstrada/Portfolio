@@ -23,5 +23,5 @@
       "@assets/*": ["./src/assets/*"],
     }
   },
-  "include": ["src"],
+  "include": ["src", "custom.d.ts"],
 }

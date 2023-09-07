@@ -83,7 +83,7 @@ export default function BubbleChart({ themeColors }: { themeColors: Record<Color
     themeColors.p,
   ]
 
-  return <div className="h-96 w-96">
+  return <div className="h-96 w-full md:w-96">
     <div className="join join-vertical">
       <div className="join-item">
         <input type="radio" id={`graph-radio-${MAIN_GROUP}`} name="graph-group" className="radio radio-primary" value={MAIN_GROUP} checked={groupFilter === MAIN_GROUP} onChange={() => setGroupFilter(MAIN_GROUP)} />
