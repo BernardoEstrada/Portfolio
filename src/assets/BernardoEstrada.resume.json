@@ -1,0 +1,348 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Bernardo Estrada",
+    "label": "Tec de Monterrey Student and Full-stack developer",
+    "image": "",
+    "email": "estradaf.bernardo@gmail.com",
+    "phone": "",
+    "url": "",
+    "headline": "Full stack engineer focused on Backend and site reliability. Data engineer. Tec de Monterrey graduate",
+    "summary": "I am a young student studying Computer Systems Engineering at Tecnológico de Monterrey Campus Querétaro, scheduled to graduate in May 2023. I have experience in robotics and programming workshops, social service at the Ecology Institute of CONACYT, an exchange in Moncton, Canada, CCNA1 and CCNA2 certifications issued by CISCO, and work experience at nibbio, GE Aviation, Leadsales and Microsoft. My skills include React, Node.js, NestJS, Full-Stack Development, TypeScript and React Hooks.",
+    "location": {
+      "countryCode": "ES",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "bernardoef",
+        "url": "https://www.linkedin.com/in/bernardoef/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Leadsales",
+      "position": "Full Stack Software Engineer",
+      "startDate": "2021-12-31",
+      "endDate": "2023-07-31",
+      "highlights": [],
+      "summary": "I played a significant role in full-stack development, proficiently handling both front-end and back-end tasks. I followed the Domain-Driven Design (DDD) architecture and adhered to the Capability Maturity Model Integration (CMMI) practices, ensuring efficient project management. Additionally, I embraced agile planning methodologies to enhance productivity and deliver high-quality results.\n\nIn the back-end development phase, I primarily focused on microservices within a monorepo environment, leveraging the power of NestJs and NX frameworks. I skillfully utilized a range of cutting-edge technologies such as gRPC, WebSockets, and CQRS to develop robust and scalable solutions.",
+      "url": "https://www.linkedin.com/company/leadsalesapp/",
+      "location": "Queretaro, Qro. Mexico"
+    },
+    {
+      "name": "Microsoft",
+      "position": "Software Engineer Intern",
+      "startDate": "2022-06-30",
+      "endDate": "2022-09-30",
+      "highlights": [],
+      "summary": "Specialized in frontend development using React.",
+      "url": "https://www.linkedin.com/company/microsoft/",
+      "location": "Redmond, Washington, United States"
+    },
+    {
+      "name": "nibbio",
+      "position": "Robotic Process Automation Engineer",
+      "startDate": "2021-08-31",
+      "endDate": "2021-11-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/nibbioco/"
+    },
+    {
+      "name": "GE Aviation",
+      "position": "Digital Technology Intern",
+      "startDate": "2020-10-31",
+      "endDate": "2021-09-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/geaerospace/",
+      "location": "Querétaro Arteaga, México"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Instituto de Ecología, A.C.",
+      "position": "Asistente en laboratorio de introducción a la ciencia",
+      "startDate": "2016-03-31",
+      "endDate": "2016-08-31",
+      "summary": "Helped organize lab sessions, inventoried lab materials and provided IT support for lab computers and equipment\n\nAyudé a organizar las sesiones de laboratorio, inventarié los materiales del laboratorio y brindé soporte técnico para las computadoras y el equipo del laboratorio",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/inecol-mx/"
+    },
+    {
+      "organization": "Qariño Animal (Querétaro, México)",
+      "position": "Desarrollador web",
+      "startDate": "2020-02-28",
+      "endDate": "2020-08-31",
+      "summary": "Create a custom web app for non-profit dog shelter to assist with adoption and advertising.\nTechnologies: PHP, Apache, JS, AJAX, and UiKit.\n\nCrear una aplicación web personalizada para refugio de perros sin fines de lucro para ayudar con adopciones y publicidad.\nTecnologías: PHP, Apache, JS, AJAX y UiKit.",
+      "highlights": [],
+      "url": ""
+    },
+    {
+      "organization": "GAAP I.A.P. (Querétaro, México)",
+      "position": "Desarrollador web",
+      "startDate": "2021-02-28",
+      "endDate": "2021-06-30",
+      "summary": "Create a web app for non-profit geriatric center to assist with advertising, donations and community outreach using NodeJS, Vue, Jest, GitHub actions and TypeScript.\n\nCrear una aplicación web para centro geriátrico sin fines de lucro para ayudar con publicidad, donaciones y alcance a la comunidad utilizando NodeJS, Vue, Jest, GitHub actions y TypeScript.",
+      "highlights": [],
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tecnológico de Monterrey",
+      "area": "Computer  Systems Engineering ",
+      "studyType": "Engineer's degree",
+      "startDate": "2018-08-31",
+      "endDate": "2023-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Algebra University College",
+      "area": "Artificial Intelligence",
+      "studyType": "International Study Program",
+      "startDate": "2023-01-31",
+      "endDate": "2023-02-28",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "CCNA R&S: Routing and Switching Essentials",
+      "issuer": "Cisco",
+      "startDate": "2021-06-30"
+    },
+    {
+      "name": "CCNA R&S: Introduction to Networks",
+      "issuer": "Cisco",
+      "startDate": "2019-12-31"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Robotic Process Automation (RPA)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Domain-Driven Design (DDD)",
+      "level": "4",
+      "keywords": []
+    },
+    {
+      "name": "NX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Storybook",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "shortName": "K8s",
+      "group": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Parallel Multithreaded Machine (PM2)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker Products",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Determine how a router forwards traffic based on the content of a routing table",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Explain how switching works in a small or medium-sized business network",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Use network monitoring tools and management protocols to troubleshoot data networks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Configure available monitoring tools for a small or medium-sized business network",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Configure initial parameters on a network device",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Configure Ethernet switch ports",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Implement VLAN",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Implement static routing and RIPv2",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Implement DHCP on a router",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Implement network address translation (NAT)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Implement access control lists (ACLs) for traffic filtering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Peer Mentoring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Automation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Explain network technologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Configure initial settings on a network device",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Electronics",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Determinar cómo un router redirecciona el tráfico según el contenido de una tabla de routing.",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Explain how switching operates in a small to medium-sized business network",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Analitical",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React Hooks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Configure monitoring tools available for small to medium-sized business networks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NestJS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Describe router hardware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Explain how devices access local and remote network resources",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Implement basic network connectivity between devices",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "es",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
