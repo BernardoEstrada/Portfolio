@@ -40,7 +40,7 @@ export default function NavBar (props: {
           <label tabIndex={0} className="btn join-item">
             <ChevronDownIcon className="w-5 h-5"/>
           </label>
-          <div className="dropdown-content z-[1] menu pt-2 shadow bg-base-100 rounded-box w-52 overflow-scroll h-52 scroll-m-0 no-scrollbar">
+          <div className="dropdown-content z-[1] menu pt-2 shadow bg-base-200 rounded-box w-52 overflow-scroll h-52 scroll-m-0 no-scrollbar">
             <ul tabIndex={0}>
               {Object.values(Themes).map((t, index) => (
                 <li key={index} onClick={() => setSelectedTheme(t)}>
