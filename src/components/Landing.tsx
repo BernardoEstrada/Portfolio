@@ -50,7 +50,7 @@ export default function Landing() {
           className="absolute top-0 left-0 w-full h-full -z-10"
         />
 
-        <div className="card grid grid-rows-1 md:grid-cols-3 md:grid-rows-2 justify-items-center items-center max-w-fit max-h-fit shadow-2xl bg-base-100 p-12 ">
+        <div className="card grid grid-rows-1 md:grid-cols-3 md:grid-rows-2 justify-items-center items-center max-w-fit max-h-fit shadow-2xl bg-base-100 p-12 mt-16 md:mt-0">
           <div className="avatar justify-center md:row-span-3">
             <div className="w-36 md:w-56 rounded-animated transition-transform">
               <img src={headshot} alt="A headshot of Bernardo Estrada"/>
@@ -78,11 +78,11 @@ export default function Landing() {
               {resume.basics.headline}
             </p>
           </div>
+        </div>
 
-
+        <div className="card grid grid-rows-1 md:grid-cols-3 justify-items-center items-center max-w-fit max-h-fit shadow-2xl bg-base-100 p-12 mt-16 md:mt-8 mb-16 md:mb-0">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
           <div className="md:col-span-3">
-            <div className="divider"></div>
             <div className="flex flex-col justify-start space-x-4 max-w-2xl">
               <h3 className="text-2xl font-bold text-left text-primary-focus">
                 Work in progress
