@@ -16,3 +16,8 @@ declare module "*.jpg" {
   const src: string;
   export default src;
 }
+declare module "*.pdf" {
+  export const ReactComponent: React.FC<React.LinkHTMLAttributes>;
+  const src: string;
+  export default src;
+}
