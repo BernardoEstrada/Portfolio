@@ -26,8 +26,9 @@ jobs:
         run: yarn install
       - name: Lint
         run: yarn lint
-        continue-on-error: true
       - name: Build
         run: yarn build
+        if: always()
       - name: Generate static site
         run: yarn generate
+        if: success()
