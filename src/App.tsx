@@ -6,8 +6,8 @@ import NavBar from './components/NavBar'
 import Landing from './components/Landing'
 import { Helmet } from 'react-helmet'
 import usePrefersColorScheme from 'use-prefers-color-scheme'
-import faviconDark from '@assets/favicon-dark.svg' assert { type: "svg" }
-import faviconLight from '@assets/favicon-light.svg' assert { type: "svg" }
+import faviconDark from '@assets/favicon/favicon-dark.svg' assert { type: "svg" }
+import faviconLight from '@assets/favicon/favicon-light.svg' assert { type: "svg" }
 
 console.log('%c Hello There!', 'font-size: 36px; font-weight: bold');
 function App() {
